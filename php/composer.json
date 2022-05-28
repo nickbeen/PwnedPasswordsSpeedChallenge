@@ -1,0 +1,24 @@
+{
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.4.2",
+        "kevinrob/guzzle-cache-middleware": "^v4.0",
+        "symfony/cache": "^v6.0.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "HaveIBeenPwned\\PwnedPasswordsSpeedChallenge\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
